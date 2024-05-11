@@ -16,7 +16,14 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+html,
 body {
+  scroll-behavior: smooth;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
